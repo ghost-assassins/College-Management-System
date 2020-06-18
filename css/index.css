@@ -1,0 +1,174 @@
+body,html{
+    font-family: verdana;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url('../images/bg-01.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.page{
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
+
+.headerpart{
+    width: auto;
+    height: 140px;
+    background: rgba(0,0,0,0.5);
+    align-content: center;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+}
+
+.headerpart h2{
+    color: white;
+    margin-left: 130px;
+    margin-top: -82px;
+}
+
+.headerpart h3{
+    color: white;
+    margin-left: 130px;
+    margin-top: -20px;
+}
+
+.linkspart{
+    width: auto;
+    height: 30px;
+    margin-top: 5px;
+    padding-top: 10px;
+    background-image: linear-gradient(rgb(12,100,198), rgb(12,100,150), rgb(12,100,198));
+    border-radius: 15px;
+}
+
+.linkspart a{
+    color:rgb(245,246,251);
+    text-decoration: none;
+    width: auto;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.linkspart a:hover{
+    background-color:rgb(245,246,251);
+    color:rgb(12,100,198);
+}
+
+vr{
+    border-left: 1px solid black;
+    height: 10px;
+    margin-right: 4px;
+}
+
+.bodypart{
+    width: auto;
+    height: auto;
+    margin-top: 5px;
+    background: rgba(0,0,0,0.7); 
+    border-radius: 20px;
+}
+
+.bodypart .imagepart{
+    box-shadow: 2px 2px 5px white;
+    width: 710px;
+    height: 320px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.mySlides{
+    border-top-left-radius: 20px;
+    display:none;
+}
+
+.links2part{
+    width: 710;
+    height: 20px;
+    border-style: groove;
+    margin-top: 5px;
+    background-color:rgb(12,100,198);
+    display: inline-block;
+}
+
+.links2part a{
+    color:rgb(245,246,251);
+    text-decoration: none;
+}
+
+.links2part a:hover{
+    background-color:rgb(245,246,251);
+    color:rgb(12,100,198);
+}
+
+.bodypart .newspart{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 220px;
+    height: auto;
+    border: 1px solid white;
+    box-shadow: 2px 2px 5px white;
+    border-top-right-radius: 20px;
+    float: right;
+}
+
+.bodypart .newspart h2{
+    color: green;
+    margin-left:  5px;
+}
+
+.bodypart .newspart .news{
+    width: 210px;
+    height: 500px;
+}
+
+.bodypart .newspart .news h4{
+    color: skyblue;
+}
+
+.bodypart h3{
+    color: white;
+    text-align: center;
+}
+
+.bodypart p{
+    color: white;
+}
+
+.Contacts{
+    color: white;
+    background: rgba(0,0,0,0.7);
+    border-radius: 20px;
+}
+
+.mappart{
+    border-radius: 20px;
+    text-align: center;
+    height: auto;
+    width: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: rgba(0,0,0,0.7);
+}
+
+.upbutton{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 25px;
+    float: right;
+}
+
+.footerpart{
+    position: sticky;
+    width: auto;
+    height: 25px;
+    padding: 5px 5px 5px 5px;
+    background-color:white;
+    text-decoration: none;
+    float: right;
+}
