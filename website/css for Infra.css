@@ -1,0 +1,93 @@
+body,html{
+    font-family: verdana;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.page
+{
+    width: auto;
+    height: auto;
+    
+    border-radius: 10px;
+    
+}
+
+.headerpart
+{
+    width: auto;
+    height: 140px;
+    background: rgba(0,0,0,0.7);
+    border-style: outset;
+    align-content: center;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+}
+
+.headerpart h2
+{
+    color: white;
+    margin-left: 130px;
+    margin-top: -82px;
+    text-align:;
+}
+
+.headerpart h3
+{
+    color: white;
+    margin-left: 130px;
+    margin-top: -20px;
+    text-align:;
+}
+
+.linkspart
+{
+    width: auto;
+    height: 20px;
+    margin-top: 5px;
+    background-color:rgb(12,100,198);
+    border-style: groove;
+}
+
+.linkspart a
+{
+    color:rgb(245,246,251);
+    text-decoration: none;
+    
+}
+
+.linkspart a:hover
+{
+    background-color:rgb(245,246,251);
+    color:rgb(12,100,198);
+    
+}
+
+.bodypart
+{
+    width: auto;
+    height: auto;
+    
+    border-radius: 10px;
+    background: rgba(0,0,0,0.7);
+}
+
+.bodypart h2
+{
+    color: white;
+    text-align-last: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img h2
+{
+    color: white;
+    text-align-last: center;
+    
+}
